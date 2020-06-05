@@ -15,5 +15,8 @@ public class Client {
         IBlackService ser = (BlackServiceImpl) BeanFactory.getBean("BlackService");
         ser.saveBlack();
     }
+    public static String gitUpdate(String times){
+        return "第"+times+"次修改Git";
+    }
 }
 
