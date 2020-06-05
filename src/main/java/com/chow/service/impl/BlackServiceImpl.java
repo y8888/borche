@@ -12,8 +12,13 @@ public class BlackServiceImpl implements IBlackService {
 
     private IBlackDao dao = (BlackDaoImpl)BeanFactory.getBean("BlackDao");
 
+//    private volatile int i = 1;
+
     public void saveBlack() {
+        int i = 1;
         dao.saveBlack();
+        System.out.println(i);
+        i++;
     }
 
 }

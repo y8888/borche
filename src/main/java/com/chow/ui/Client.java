@@ -12,8 +12,12 @@ import com.chow.service.impl.BlackServiceImpl;
  */
 public class Client {
     public static void main(String[] args) {
-        IBlackService ser = (BlackServiceImpl) BeanFactory.getBean("BlackService");
-        ser.saveBlack();
+        for (int i = 0 ; i< 5 ; i++){
+            IBlackService ser = (BlackServiceImpl) BeanFactory.getBean("BlackService");
+            System.out.println(ser);
+            ser.saveBlack();
+        }
+
     }
     public static String gitUpdate(String times){
         System.out.println("新来的");
