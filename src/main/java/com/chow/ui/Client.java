@@ -16,7 +16,9 @@ public class Client {
         ser.saveBlack();
     }
     public static String gitUpdate(String times){
+        System.out.println("新来的");
         return "第"+times+"次修改Git";
+
     }
 }
 
