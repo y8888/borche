@@ -24,5 +24,8 @@ public class Client {
         return "第"+times+"次修改Git";
 
     }
+    public void myPC(){
+        System.out.println("测试");
+    }
 }
 
