@@ -27,5 +27,9 @@ public class Client {
     public void myPC(){
         System.out.println("测试");
     }
+
+    public void borche(){
+        System.out.println("Update in borche");
+    }
 }
 
